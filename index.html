@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Swiper js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Presto Francesco</title>
+  </head>
+  <body>
+      
+      <nav id="navbar-presto" class="navbar navbar-expand-md fixed-top">
+          <div class="container-fluid">
+              <a class="navbar-brand fw-bold fs-3" href="#">E-commerce.it</a>
+              <button class="navbar-toggler border-m" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><i class="fas fa-ellipsis-h fs-1 main-c" ></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-3">
+                        <li class="nav-item">
+                            <a class="nav-link d-inline-block" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-inline-block" href="#">Categorie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-inline-block" href="./prodotti.html">Tutti gli annunci</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-inline-block" href="./profile.html">Profilo</a>
+                        </li>
+                        <li class="nav-item py-1">
+                            <i class="fab fa-facebook fs-2 main-c ms-2"></i>
+                        </li>
+                        <li class="nav-item py-1">
+                            <i class="fab fa-snapchat-ghost fs-2 main-c ms-2"></i>
+                        </li>
+                        <li class="nav-item py-1">
+                            <i class="fab fa-twitter fs-2 main-c ms-2"></i>
+                        </li>
+                        <li class="nav-item py-1">
+                            <i class="fab fa-instagram fs-2 main-c ms-2"></i>
+                        </li>
+                        <li class="nav-item py-1">
+                            <i class="fab fa-linkedin fs-2 main-c ms-2 me-2"></i>
+                            
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+        <header class="container-fluid masthead mt-5 white-co mb-5">
+            <div class="container masthead">
+                <div class="row align-items-center h-50">
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                    <p class="mb-0 mt-3">Il portale per i tuoi annunci</p>
+                    <h2 class="display-2 fw-bold main-c">E-commerce.it</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt numquam in, eaque et rerum alias nemo laboriosam aspernatur cupiditate, sint deserunt. Impedit facere consequuntur asperiores saepe eius voluptates inventore itaque?</p>
+                </div>
+                <div class="col-12 col-lg-6 order-1 order-lg-2 mb-5">
+                    <img class="img-fluid" src="./media/Online_shopping.svg" alt="">
+                </div>
+            </div>
+            </div>
+
+        </header>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="fw-bold display-4 main-c mt-3">Esplora le nostre categorie</h2>
+                </div>
+                <div class="col-12">
+                    <div class="row my-5 h-100" id="categories-wrapper">
+                    <!-- <div class="col-12 col-md-3">
+                        
+                        
+                        <div class="card-category white-co text-center">
+                            <img class='img-fluid img-categoria' src="./media/moto.svg" alt="">
+                            <h3 class="fw-bold mb-4 main-c mt-3 titolo-categoria"><i class="fab fa-pied-piper-pp"></i> Categoria
+                            </h3>
+                        <button class="btn-categoria fw-bold mx-auto">Vai alla categoria</button>
+                            
+                    </div> -->
+
+                       
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container ">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="fw-bold display-5 main-c margin-y-custom">Gli ultimi annunci</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <!-- Slider main container -->
+                  <div class="swiper mx-auto">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper swiper-last-prod-wrapper">
+                            <!-- Slides -->
+                            <!-- <div class="swiper-slide">
+                                <div class="card-product">
+                                    <img class="img-fluid border-bottom-custom" src="https://picsum.photos/300" alt="">
+                                    <div class="card-product-body main-c">
+                                       <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                           <h3 class="mb-0 titolo-annuncio-carosello">Prodotto</h3>
+                                           <i class="far fa-heart favourite fs-3 icona-cuore"></i>
+                                           <a class="white-co w-100 text-start categoria-carosello" href="">Categoria</a>
+                                       </div>
+                                        <p class="fs-3 text-end">30$</p>
+                                    </div>
+
+                                </div>
+                            </div> -->
+                            <!-- <div class="swiper-slide">
+                                <div class="card-product">
+                                    <img class="img-fluid border-bottom-custom" src="https://picsum.photos/301" alt="">
+                                    <div class="card-product-body main-c">
+                                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                            <h3 class="mb-0 titolo-annuncio-carosello">Prodotto</h3>
+                                            <i class="far fa-heart favourite fs-3 icona-cuore"></i>
+                                            <a class="white-co w-100 text-start categoria-carosello" href="">Categoria</a>
+                                        </div>
+                                         <p class="fs-3 text-end">30$</p>
+                                     </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-product">
+                                    <img class="img-fluid border-bottom-custom" src="https://picsum.photos/302" alt="">
+                                    <div class="card-product-body main-c">
+                                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                            <h3 class="mb-0 titolo-annuncio-carosello">Prodotto</h3>
+                                            <i class="far fa-heart favourite fs-3 icona-cuore"></i>
+                                            <a class="white-co w-100 text-start categoria-carosello" href="">Categoria</a>
+                                        </div>
+                                         <p class="fs-3 text-end">30$</p>
+                                     </div>
+
+                                </div>
+                            </div> -->
+                            <!-- <div class="swiper-slide">
+                                <div class="card-product">
+                                    <img class="img-fluid border-bottom-custom" src="https://picsum.photos/306" alt="">
+
+                                </div>
+                            </div> -->
+                            <!-- <div class="swiper-slide">
+                                <div class="card-product">
+                                    <img class="img-fluid border-bottom-custom" src="https://picsum.photos/307" alt="">
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-product">
+                                    <img class="img-fluid border-bottom-custom" src="https://picsum.photos/308" alt="">
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-product">
+                                    <img class="img-fluid border-bottom-custom" src="https://picsum.photos/309" alt="">
+
+                                </div>
+                            </div> -->
+                            
+                    </div>
+                
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev main-c"></div>
+                        <div class="swiper-button-next main-c"></div>
+
+                    
+
+                    </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid mt-5 py-4 bg-white-c black-co">
+            <div class="row">
+                <div class="col-12 text-center black-co">
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <h3>E-commerce.it</h3>
+                            <ul>
+                                <li>About us</li>
+                                <li>Team</li>
+                                <li>Blog</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <h3>Customers</h3>
+                            <ul>
+                                <li>Products</li>
+                                <li>Services</li>
+                                <li>Support</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <h3>Lavora con noi</h3>
+                            <ul>
+                                <li>Careers</li>
+                                <li>Posizioni aperte</li>
+                                <li>Candidati</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <ul>
+                                <h3>Information</h3>
+                                <li>Terms & Conditions</li>
+                                <li>Privacy Policy</li>
+                                <li>Copyright</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="mt-4">
+                <span> <i class="fab fa-facebook fs-2 main-c ms-2"></i></span>
+                <span> <i class="fab fa-snapchat-ghost fs-2 main-c ms-2"></i></span>
+                <span> <i class="fab fa-twitter fs-2 main-c ms-2"></i></span>
+                <span> <i class="fab fa-linkedin fs-2 main-c ms-2"></i></span>
+
+                
+
+                
+
+                    </p>
+                    <h5>Powered by <a class="fw-bold main-c">Francesco Avitto</a></h5>
+                    <p>Copyright © 2021 | All rights Reserved</p>
+
+                </div>
+            </div>
+        </footer>
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript; choose one of the two! -->
+        
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- swiper js -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        
+<script src="script.js"></script>
+  </body>
+</html>
